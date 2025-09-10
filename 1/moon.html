@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/moon.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="venus.html">Венера</a></li>
+                    <li><a href="moon.html" class="active">Луна</a></li>
+                </ul>
+            </nav>
+            <h1>Луна</h1>
+            <p class="subtitle">Естественный спутник Земли и самый яркий объект на ночном небе после Солнца.</p>
+        </header>
+
+        <!-- Пример структуры Bootstrap по заданию -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="border col-3">
+                    <h4>Быстрые факты</h4>
+                    <ul>
+                        <li>Расстояние от Земли: 384,400 км</li>
+                        <li>Диаметр: 3,474 км</li>
+                        <li>Возраст: ~4.5 млрд лет</li>
+                        <li>Период обращения: 27.3 дня</li>
+                    </ul>
+                </div>
+                <div class="bg-success col-9">
+                    <h4>Значение Луны</h4>
+                    <p>Луна играет crucial роль в стабилизации наклона земной оси, что обеспечивает стабильность климата на нашей планете. Также она вызывает приливы и отливы в океанах.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="moon-info mt-5">
+            <h2>О Луне</h2>
+            <p>Луна — единственный естественный спутник Земли и пятый по величине спутник в Солнечной системе. Это второй по яркости объект на земном небосводе после Солнца и единственное небесное тело, на которое ступал человек.</p>
+            
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h3>Физические характеристики</h3>
+                    <table class="table table-dark table-striped">
+                        <tr>
+                            <th>Параметр</th>
+                            <th>Значение</th>
+                        </tr>
+                        <tr>
+                            <td>Средний радиус</td>
+                            <td>1,737.1 км</td>
+                        </tr>
+                        <tr>
+                            <td>Площадь поверхности</td>
+                            <td>3.793×10^7 км²</td>
+                        </tr>
+                        <tr>
+                            <td>Масса</td>
+                            <td>7.3477×10^22 кг</td>
+                        </tr>
+                        <tr>
+                            <td>Сила тяжести</td>
+                            <td>1.622 м/с² (0.1654 g)</td>
+                        </tr>
+                        <tr>
+                            <td>Температура поверхности</td>
+                            <td>от -173°C до +127°C</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h3>Фазы Луны</h3>
+                    <p>Луна проходит через различные фазы из-за изменения взаимного расположения Земли, Луны и Солнца:</p>
+                    <ul>
+                        <li>Новолуние</li>
+                        <li>Растущий серп</li>
+                        <li>Первая четверть</li>
+                        <li>Растущая луна</li>
+                        <li>Полнолуние</li>
+                        <li>Убывающая луна</li>
+                        <li>Последняя четверть</li>
+                        <li>Стареющий серп</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="moon-missions mt-5">
+            <h2>Исследование Луны</h2>
+            <p>Луна была первым небесным телом, на которое были отправлены космические аппараты, и первым, которое посетили люди.</p>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="mission-card">
+                        <h4>Луна-2 (1959)</h4>
+                        <p>Первый искусственный объект, достигший поверхности Луны. Запущен СССР.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="mission-card">
+                        <h4>Аполлон-11 (1969)</h4>
+                        <p>Первая пилотируемая миссия, в ходе которой люди ступили на поверхность Луны.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="mission-card">
+                        <h4>Чанъэ-4 (2019)</h4>
+                        <p>Первый аппарат, совершивший посадку на обратной стороне Луны.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="mt-4">Исторические миссии на Луну</h3>
+            <table class="table table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Миссия</th>
+                        <th>Год</th>
+                        <th>Страна</th>
+                        <th>Достижение</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Луна-2</td>
+                        <td>1959</td>
+                        <td>СССР</td>
+                        <td>Первое достижение поверхности Луны</td>
+                    </tr>
+                    <tr>
+                        <td>Рейнджер-7</td>
+                        <td>1964</td>
+                        <td>США</td>
+                        <td>Первые детальные фото поверхности</td>
+                    </tr>
+                    <tr>
+                        <td>Аполлон-8</td>
+                        <td>1968</td>
+                        <td>США</td>
+                        <td>Первые люди на орбите Луны</td>
+                    </tr>
+                    <tr>
+                        <td>Аполлон-11</td>
+                        <td>1969</td>
+                        <td>США</td>
+                        <td>Первая высадка человека на Луну</td>
+                    </tr>
+                    <tr>
+                        <td>Луноход-1</td>
+                        <td>1970</td>
+                        <td>СССР</td>
+                        <td>Первый планетоход на Луне</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Кнопка для вывода "пупу" в консоль -->
+        <div class="pupu-section mt-5">
+            <h3>Секретная кнопка</h3>
+            <p>Нажмите на кнопку ниже, чтобы увидеть секретное сообщение в консоли браузера (откройте консоль с помощью F12)</p>
+            <button id="pupu-button" class="pupu-button">Нажми меня!</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Исследование планет Солнечной системы</p>
+            <p>Сайт создан с использованием HTML, CSS, JavaScript и Bootstrap</p>
+        </div>
+    </footer>
+</body>
+</html>
